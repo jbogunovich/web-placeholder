@@ -1,0 +1,80 @@
+/* Typography */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+body{
+    background-color:#34495e;
+}
+/* Responsiveness */
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+/* Custom Styles */
+
+header {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+header > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+header > .tagline {
+    font-size: 1.5rem;
+	margin: 0.5rem 0 1.5rem 0;
+	font-weight: 100;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+/* Icons */
+.icons i {
+    font-size: 3em;
+	padding: 10px;
+}
+.icons a {
+	color: #3498db;
+}
+
+.icons a:hover{
+    color: #49abec;
+}
